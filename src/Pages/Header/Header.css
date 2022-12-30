@@ -1,0 +1,37 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.message {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #e5e5e5;
+    padding: 0px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.input-box-design {
+    text-align: center;
+}
+.input {
+    position: relative;
+    outline: none;
+    padding: 2px 10px;
+    border-right: none;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    width: 400px;
+}
+.button {
+    position: absolute;
+    padding: 2px 15px;
+    border: 1px solid black;
+    border-left: none;
+    background-color: rgb(171, 218, 233);
+}
